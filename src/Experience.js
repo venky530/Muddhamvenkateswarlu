@@ -9,7 +9,7 @@ export default function Experience() {
       </h2>
       <div className="work-experience">
         <h3 className="role-title">
-          <i className="fas fa-laptop-code"></i>Senior Associate
+          <i className="fas fa-laptop-code"></i> Associate
         </h3>
         <p className="company-details">
           <i className="fas fa-building"></i> Company Name: Machint Solutions
@@ -19,15 +19,14 @@ export default function Experience() {
           <i className="fas fa-map-marker-alt"></i> Company Location: Hyderabad
         </p>
         <p className="duration">
-          <i className="fas fa-calendar-alt"></i> Duration: 2.6 Years
+          <i className="fas fa-calendar-alt"></i> Duration: 3.2 Years
         </p>
         <div className="skills">
           <h4 className="skills-header">
             <i className="fas fa-tools"></i> Key Skills & Technologies:
           </h4>
           <p>
-            HTML, CSS, JavaScript, React, JSON, Git, SPA (Single Page
-            Applications)
+            AWS, Terraform, Kubernetes, Docker, Ansible, Jenkins, Grafana , Prometheous, Shell Script, Linux.
           </p>
         </div>
         <div className="achievements">
@@ -82,7 +81,7 @@ export default function Experience() {
           </ul>
         </div>
       </div>
-      &nbsp;&nbsp;
+      {/* &nbsp;&nbsp;
       <div className="work-experience">
         <h3 className="role-title">
           <i className="fas fa-laptop-code"></i>Senior Engineer
@@ -185,7 +184,7 @@ export default function Experience() {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -4,25 +4,25 @@ import './Services.css';
 
 export default function Services() {
   const technologies = [
-    { iconClass: 'fab fa-react', title: 'React', description: 'A JavaScript library for building user interfaces.' },
-    { iconClass: 'fab fa-html5', title: 'HTML', description: 'The standard markup language for documents designed to be displayed in a web browser.' },
-    { iconClass: 'fab fa-css3-alt', title: 'CSS', description: 'Style sheet language used for describing the presentation of a document written in HTML.' },
+    { iconClass: 'fab fa-aws', title: 'AWS', description: 'Cloud computing platform offering scalable and flexible infrastructure solutions.' },
+    { iconClass: 'fab fa-docker', title: 'K8s & Docker', description: 'Container orchestration and management platform for deploying scalable applications.' },
+    { iconClass: 'fas fa-cube', title: 'Terraform', description: 'Infrastructure as Code (IaC) tool for automating cloud resource provisioning.' },
     { 
-        iconClass: 'fab fa-js-square',
-        title: 'JavaScript', 
-        description: `JavaScript is a versatile programming language, and TypeScript is its strict syntactical superset adding optional static typing.` 
-      },
-      { 
-        iconClass: 'fab fa-php',
-        title: 'PHP', 
-        description: `CodeIgniter is a lightweight MVC framework for PHP, known for its speed, simplicity, and flexibility in building web applications. It provides a structured approach to development while maintaining high performance.` 
-      },
-      { 
-        iconClass: 'fab fa-brands fa-bootstrap',
-        title: 'BootStrap', 
-        description: `Bootstrap is a popular front-end framework, providing pre-styled components and a responsive grid system to streamline web development.` 
-      },
-  ];
+        iconClass: 'fas fa-tools',
+        title: 'Ansible', 
+        description: 'Configuration management and automation tool for managing infrastructure efficiently.' 
+    },
+    { 
+        iconClass: 'fas fa-cogs',
+        title: 'Jenkins', 
+        description: 'Automation server used for building, testing, and deploying applications in CI/CD pipelines.' 
+    },
+    { 
+        iconClass: 'fas fa-chart-line',
+        title: 'Grafana & Prometheus', 
+        description: 'Monitoring and observability tools for visualizing and analyzing system metrics.' 
+    },
+];
 
   return (
     <div>

@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FaMoon, FaSun } from 'react-icons/fa';
-import sivaprasadImg from './tkotasivaprasad.JPG';
+import sivaprasadImg from './muddhamvenkatesh.JPG';
 import './App.css';
 import Home from './Home';
 import AboutUs from './AboutUs';

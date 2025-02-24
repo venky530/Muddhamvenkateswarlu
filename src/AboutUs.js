@@ -8,27 +8,24 @@ export default function AboutUs() {
         <i className="fas fa-user"></i> About Me
       </h2>
       <p>
-        To make use of my interpersonal skills to achieve the goals of a company
-        that focuses on customer satisfaction and customer experience. Able to
-        effectively self-manage during independent projects, as well as
-        collaborate as part of a productive team. Proficient in an assortment of
-        front-end technologies, including React, Redux, React Native, HTML, CSS,
-        and JavaScript.
-      </p>
-      <p>
-        Experienced in front-end development with a strong focus on building
-        responsive and user-friendly interfaces. Adept at collaborating with
-        teams to deliver high-quality solutions and enhancing the overall user
-        experience.
+      To leverage my technical and interpersonal skills in achieving the goals
+       of a company that prioritizes automation, reliability, and efficiency in 
+       software development and operations. Adept at designing, implementing, and 
+       managing CI/CD pipelines, cloud infrastructure, and containerized applications. 
+       Proficient in DevOps tools and technologies, including Terraform, Kubernetes, Docker, 
+       Ansible, Jenkins, AWS, and monitoring solutions like Prometheus and Grafana. 
+       Able to work independently on automation projects as well as collaborate effectively 
+       within cross-functional teams to drive innovation and operational excellence.
       </p>
 
       <h3 className="sub-header">
         <i className="fas fa-bullseye"></i> My Professional Philosophy
       </h3>
       <p>
-        Leveraging technology to build seamless, user-friendly applications that
-        enhance user experience and satisfaction. Committed to delivering
-        robust, innovative solutions that exceed organizational expectations.
+      Harnessing automation, cloud infrastructure, and DevOps 
+      best practices to create scalable, resilient, and high-performing systems. 
+      Dedicated to optimizing software delivery, enhancing reliability, and driving 
+      continuous innovation to exceed business and operational goals.
       </p>
 
       <h3 className="sub-header">
@@ -36,17 +33,16 @@ export default function AboutUs() {
       </h3>
       <ul className="values-list">
         <li>
-          User Satisfaction: Prioritizing the needs of our users to deliver the
-          best experience.
+           Automation First : Streamlining workflows and reducing manual effort to enhance efficiency and reliability.
         </li>
         <li>
-          Continuous Improvement: Striving for excellence in every project.
+           Scalability & Reliability : Designing infrastructure and CI/CD pipelines that ensure seamless deployments and system resilience.
         </li>
-        <li>Integrity: Maintaining transparency and honesty in my work.</li>
+        <li>Continuous Improvement : Embracing a culture of learning, iteration, and innovation to optimize performance and processes.</li>
         <li>
-          Collaboration: Building strong, productive relationships within our
-          teams and organizations.
+           Security & Compliance : Embedding security best practices into every stage of development and deployment.
         </li>
+        <li>Collaboration & Transparency : Fostering strong cross-team communication to bridge the gap between development and operations.</li>
       </ul>
 
       <h3 className="sub-header">
@@ -58,17 +54,14 @@ export default function AboutUs() {
       </p>
       <ul className="expertise-list">
         <li>
-          Front-End: React, React-Redux, React-Native, HTML, CSS, JavaScript
+          Administration: Database, Linux, Appian, vmware management
         </li>
         <li>
-          Back-End: Node.js (basic knowledge), PHP (worked at the start of
-          my career)
+          DevOps Tools: Terraform, Kubernetes, Docker, Jenkins, Ansible)
         </li>
-        <li>Tools & Platforms: Git, Jenkins, Jira</li>
+        <li>Security Tools: Sonar Scanner, owasp-dependency-check, trivy, owasp zap</li>
         <li>
-          Methodologies: Agile, Scrum, Continuous Integration/Continuous
-          Deployment (CI/CD)
-        </li>
+           Cloud Aws services: Vpc, Ec2, Elb, Auto scaling, Rds, Route 53, s3, Iam, Cloud watch, Ecs</li>
       </ul>
     </div>
   );
