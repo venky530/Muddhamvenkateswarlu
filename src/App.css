@@ -1,0 +1,226 @@
+
+.image {
+  text-align: center;
+}
+
+.image {
+  max-width: 90%;
+  height: auto; 
+  pointer-events: none;
+  border-radius: 300px;
+}
+
+.main-panel {
+  display: flex;
+  margin: 0% 7% 0% 0%;
+  overflow: hidden;
+}
+
+.right-side-panel {
+  width: 100%;
+  overflow: auto;
+  scrollbar-width: thin; 
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background-color: #f9f9f9;
+  --text-color: #2c3e50;
+  --link-hover-color: #2980b9;
+  --highlight-color: #00aae2;
+  --active-link-bg: #00aae2;
+  --scrollbar-thumb: #dad7d7;
+  --scrollbar-track: #f1f1f1;
+}
+
+body.dark-mode {
+  --background-color: #333;
+  --text-color: #ecf0f1;
+  --link-hover-color: #3498db;
+  --highlight-color: #3498db;
+  --active-link-bg: #00aae2;
+  --scrollbar-thumb: #555;
+  --scrollbar-track: #2c3e50;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.left-side-panel {
+  position: relative;
+  background-color: var(--background-color);
+  padding: 5% 3% 5% 3%;
+  text-align: center;
+  width: 21%;
+  overflow: auto;
+  scrollbar-width: thin; 
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+  scroll-behavior: smooth;
+  transition: transform 0.3s ease;
+}
+
+.navigation {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.navigation li {
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.navigation li:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.navigation .active {
+  background-color: var(--active-link-bg);
+  color: var(--text-color);
+}
+
+.div-spacing {
+  padding: 6% 5% 0% 0%;
+}
+
+.hamburger-icon {
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.hamburger-icon .bar {
+  width: 30px;
+  height: 3px;
+  background-color: var(--text-color);
+  margin: 6px 0;
+  transition: all 0.3s ease;
+}
+
+.hamburger-icon.open .bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger-icon.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-icon.open .bar:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+@media (max-width: 768px) {
+  .hamburger-icon {
+    display: block;
+  }
+
+  .left-side-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translateX(-100%);
+    z-index: 999;
+    width: 60%;
+  }
+
+  .left-side-panel.open {
+    transform: translateX(0);
+  }
+
+  .right-side-panel {
+    margin-left: 0;
+  }
+}
+
+.job-title {
+  font-size: 16px;
+  line-height: 1.6; 
+  color: var(--text-color);
+  margin: 20px 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.company-name {
+  color: var(--highlight-color);
+  margin-left: 10px;
+  font-weight: bold;
+  transition: color 0.3s, transform 0.3s, font-size 0.3s;
+}
+
+.company-name:hover {
+  color: var(--link-hover-color);
+  transform: translateY(-2px) scale(1.05);
+}
+
+.experience {
+  color: #7f8c8d;
+  margin-left: 10px;
+  font-style: italic;
+  transition: color 0.3s;
+}
+
+.experience:hover {
+  color: var(--text-color);
+}
+
+.right-side-panel::-webkit-scrollbar,
+.left-side-panel::-webkit-scrollbar {
+  width: 8px;
+}
+
+.right-side-panel::-webkit-scrollbar-track,
+.left-side-panel::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-track);
+}
+
+.right-side-panel::-webkit-scrollbar-thumb,
+.left-side-panel::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb);
+  border-radius: 10px;
+}
+
+
+.dark-mode-toggle-icon {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    margin-top: 20px;
+}
+
+.dark-mode-toggle-icon:hover {
+  transform: scale(1.1);
+}
+
+.dark-mode-toggle-icon svg {
+  transition: color 0.3s ease;
+}
+
+.dark-mode-toggle-icon svg path {
+  fill: currentColor;
+}
+
+body.dark-mode .dark-mode-toggle-icon svg {
+  color: #f39c12; 
+}
+
+body.light-mode .dark-mode-toggle-icon svg {
+  color: #3498db; 
+}
+
