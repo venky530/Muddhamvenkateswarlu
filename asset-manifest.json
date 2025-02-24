@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Muddhamvenkateswarlu/static/css/main.73a652f1.css",
+    "main.js": "/Muddhamvenkateswarlu/static/js/main.0a86f3c7.js",
+    "static/js/453.bb257cf5.chunk.js": "/Muddhamvenkateswarlu/static/js/453.bb257cf5.chunk.js",
+    "static/media/KotaSivaPrasadT.pdf": "/Muddhamvenkateswarlu/static/media/KotaSivaPrasadT.f9a2d5b76f3af83bb87d.pdf",
+    "static/media/home-bg-image.jpg": "/Muddhamvenkateswarlu/static/media/home-bg-image.88c675462650425efd33.jpg",
+    "static/media/tkotasivaprasad.JPG": "/Muddhamvenkateswarlu/static/media/tkotasivaprasad.b758365927fec1646bc3.JPG",
+    "index.html": "/Muddhamvenkateswarlu/index.html",
+    "main.73a652f1.css.map": "/Muddhamvenkateswarlu/static/css/main.73a652f1.css.map",
+    "main.0a86f3c7.js.map": "/Muddhamvenkateswarlu/static/js/main.0a86f3c7.js.map",
+    "453.bb257cf5.chunk.js.map": "/Muddhamvenkateswarlu/static/js/453.bb257cf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73a652f1.css",
+    "static/js/main.0a86f3c7.js"
+  ]
+}
