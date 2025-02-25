@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Muddhamvenkateswarlu/static/css/main.73a652f1.css",
-    "main.js": "/Muddhamvenkateswarlu/static/js/main.21c0d3c7.js",
+    "main.js": "/Muddhamvenkateswarlu/static/js/main.11f101c2.js",
     "static/js/453.bb257cf5.chunk.js": "/Muddhamvenkateswarlu/static/js/453.bb257cf5.chunk.js",
     "static/media/home-bg-image.jpg": "/Muddhamvenkateswarlu/static/media/home-bg-image.88c675462650425efd33.jpg",
     "static/media/muddhamvenkatesh.JPG": "/Muddhamvenkateswarlu/static/media/muddhamvenkatesh.b758365927fec1646bc3.JPG",
     "static/media/MuddhamVenkateswarlu.pdf": "/Muddhamvenkateswarlu/static/media/MuddhamVenkateswarlu.e05d64dd391ebf0c2cb8.pdf",
     "index.html": "/Muddhamvenkateswarlu/index.html",
     "main.73a652f1.css.map": "/Muddhamvenkateswarlu/static/css/main.73a652f1.css.map",
-    "main.21c0d3c7.js.map": "/Muddhamvenkateswarlu/static/js/main.21c0d3c7.js.map",
+    "main.11f101c2.js.map": "/Muddhamvenkateswarlu/static/js/main.11f101c2.js.map",
     "453.bb257cf5.chunk.js.map": "/Muddhamvenkateswarlu/static/js/453.bb257cf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73a652f1.css",
-    "static/js/main.21c0d3c7.js"
+    "static/js/main.11f101c2.js"
   ]
 }
