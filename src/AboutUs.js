@@ -8,24 +8,18 @@ export default function AboutUs() {
         <i className="fas fa-user"></i> About Me
       </h2>
       <p>
-      To leverage my technical and interpersonal skills in achieving the goals
-       of a company that prioritizes automation, reliability, and efficiency in 
-       software development and operations. Adept at designing, implementing, and 
-       managing CI/CD pipelines, cloud infrastructure, and containerized applications. 
-       Proficient in DevOps tools and technologies, including Terraform, Kubernetes, Docker, 
-       Ansible, Jenkins, AWS, and monitoring solutions like Prometheus and Grafana. 
-       Able to work independently on automation projects as well as collaborate effectively 
-       within cross-functional teams to drive innovation and operational excellence.
+      I am a DevOps Engineer passionate about automation, cloud infrastructure, and CI/CD pipeline optimization. My expertise lies in bridging the gap between development and operations to ensure seamless, scalable, and highly reliable deployments. I thrive in dynamic environments where I can drive efficiency, security, and innovation in software delivery.
+
+With a strong background in container orchestration, cloud computing, and infrastructure as code (IaC), I help organizations accelerate their development lifecycle while maintaining stability and security.
       </p>
 
       <h3 className="sub-header">
         <i className="fas fa-bullseye"></i> My Professional Philosophy
       </h3>
       <p>
-      Harnessing automation, cloud infrastructure, and DevOps 
-      best practices to create scalable, resilient, and high-performing systems. 
-      Dedicated to optimizing software delivery, enhancing reliability, and driving 
-      continuous innovation to exceed business and operational goals.
+      🚀 "Automate Everything, Scale Efficiently, Deliver Seamlessly."
+
+          I believe in leveraging cutting-edge DevOps tools and best practices to create high-performance, resilient, and self-healing systems. My goal is to eliminate bottlenecks, enhance security, and optimize deployments to ensure faster and more reliable software delivery.
       </p>
 
       <h3 className="sub-header">
@@ -33,16 +27,16 @@ export default function AboutUs() {
       </h3>
       <ul className="values-list">
         <li>
-           Automation First : Streamlining workflows and reducing manual effort to enhance efficiency and reliability.
+           Automation First : Eliminating manual effort to enhance speed, consistency, and efficiency.
         </li>
         <li>
-           Scalability & Reliability : Designing infrastructure and CI/CD pipelines that ensure seamless deployments and system resilience.
+           Scalability & Reliability : Designing robust, fault-tolerant infrastructure and CI/CD pipelines.
         </li>
-        <li>Continuous Improvement : Embracing a culture of learning, iteration, and innovation to optimize performance and processes.</li>
+        <li>Continuous Improvement : Embracing a culture of learning, iteration, and optimization.</li>
         <li>
-           Security & Compliance : Embedding security best practices into every stage of development and deployment.
+           Security & Compliance :  Embedding security at every stage of development and deployment.
         </li>
-        <li>Collaboration & Transparency : Fostering strong cross-team communication to bridge the gap between development and operations.</li>
+        <li>Collaboration & Transparency : Building strong communication between Dev, Ops, and Security teams.</li>
       </ul>
 
       <h3 className="sub-header">
@@ -54,14 +48,16 @@ export default function AboutUs() {
       </p>
       <ul className="expertise-list">
         <li>
-          Administration: Database, Linux, Appian, vmware management
+        Infrastructure & Automation: Terraform, Ansible, Kubernetes, Docker.
         </li>
         <li>
-          DevOps Tools: Terraform, Kubernetes, Docker, Jenkins, Ansible)
+        CI/CD & DevOps Pipelines: Jenkins, GitHub Actions, GitLab CI/CD
         </li>
-        <li>Security Tools: Sonar Scanner, owasp-dependency-check, trivy, owasp zap</li>
+        <li>Cloud Expertise: AWS (VPC, EC2, ELB, Auto Scaling, RDS, Route 53, S3, IAM, ECS, CloudWatch)</li>
         <li>
-           Cloud Aws services: Vpc, Ec2, Elb, Auto scaling, Rds, Route 53, s3, Iam, Cloud watch, Ecs</li>
+        Security & Compliance: SonarQube, OWASP Dependency Check, Trivy, OWASP ZAP</li>
+        <li> Monitoring & Logging: Prometheus, Grafana, CloudWatch </li>
+        <li>Administration & Management: Linux, Database Administration, Appian, VMware</li>
       </ul>
     </div>
   );
